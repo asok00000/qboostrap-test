@@ -187,13 +187,13 @@ SvgIcon:show {
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>30</width>
-          <height>30</height>
+          <width>50</width>
+          <height>50</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">:normal {
- 	color:  purple;
+ 	color:  #F56C6C;
 	qproperty-rotation: 0; 
      background-color: darkgrey;
 	border-radius: 0px;
@@ -201,7 +201,7 @@ SvgIcon:show {
 	qproperty-margin: rect(12 12 12 12);
 }
 :hover {
- 	color:  red;
+ 	color:  #C45656;
 	qproperty-rotation: 360; 
      background-color: lightgray;
 	border-radius: 10px;
@@ -254,13 +254,13 @@ background-color: red;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">:normal {
- 	color:  purple;
+ 	color:  #67C23A;
 	qproperty-rotation: 0;
 	border-radius: 0px;
 	padding: 20px;
 }
 :hover {
- 	color:  red;
+ 	color:  #529B2E;
 	qproperty-rotation: 360; 
 	border-radius: 10px;
 }

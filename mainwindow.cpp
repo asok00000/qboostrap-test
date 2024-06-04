@@ -33,7 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     QString startQss = R"(
-        color:  purple;
+        color:  #B88230;
         qproperty-rotation: 0;
     )";
     QString endQss = R"(
