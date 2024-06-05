@@ -21,7 +21,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -150,9 +150,9 @@ SvgIcon:show {
            </property>
            <property name="color" stdset="0">
             <color>
-             <red>0</red>
-             <green>150</green>
-             <blue>255</blue>
+             <red>148</red>
+             <green>33</green>
+             <blue>146</blue>
             </color>
            </property>
            <property name="animationEnabled" stdset="0">
@@ -4283,7 +4283,7 @@ background-color: &quot;darkgrey&quot;;</string>
      <x>0</x>
      <y>0</y>
      <width>679</width>
-     <height>24</height>
+     <height>37</height>
     </rect>
    </property>
   </widget>

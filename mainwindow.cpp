@@ -57,11 +57,13 @@ MainWindow::MainWindow(QWidget *parent)
             qDebug() << b->property("link");
         }
     });
-    auto temp = {ui->widget_10, ui->widget_11, ui->widget_12, ui->widget_13, ui->widget_14, ui->widget_15, ui->widget_16, ui->widget_17};
+    auto temp = {ui->widget_10, ui->widget_11, ui->widget_12, ui->widget_13,
+                 ui->widget_14, ui->widget_15, ui->widget_16, ui->widget_17,
+                 ui->widget_18, ui->widget_19};
     for (auto w : temp) {
         auto children = w->children();
         for (auto c : children) {
-            if (c->metaObject()->inherits(QPushButton().metaObject())) {
+            if (c->inherits("QAbstractButton")) {
                 QPushButton *button = static_cast<QPushButton *>(c);
                 connect(button, &QPushButton::clicked, mapper, qOverload<>(&QSignalMapper::map));
                 mapper->setMapping(button, button);
