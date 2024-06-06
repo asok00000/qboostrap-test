@@ -33,7 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     QString startQss = R"(
-        color:  #B88230;
+        color:  purple;
         qproperty-rotation: 0;
     )";
     QString endQss = R"(
@@ -45,7 +45,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     auto mapper = new QSignalMapper(this);
     connect(mapper, &QSignalMapper::mappedObject, this, [this] (QObject *button) {
-        auto b = static_cast<QPushButton*> (button);
+        auto b = static_cast<QAbstractButton*> (button);
         qDebug() << b->text() << "clicked";
         b->setText(b->text() + "(Disabled)");
         b->setEnabled(false);
@@ -56,10 +56,13 @@ MainWindow::MainWindow(QWidget *parent)
         if (b->metaObject()->inherits(LinkButton().metaObject())) {
             qDebug() << b->property("link");
         }
+        if (b->inherits("QRadioButton") || b->inherits("QCheckBox")) {
+            b->setProperty("hasBorder", !b->property("hasBorder").toBool());
+        }
     });
     auto temp = {ui->widget_10, ui->widget_11, ui->widget_12, ui->widget_13,
                  ui->widget_14, ui->widget_15, ui->widget_16, ui->widget_17,
-                 ui->widget_18, ui->widget_19};
+                 ui->widget_18, ui->widget_19, ui->widget_20, ui->widget_21};
     for (auto w : temp) {
         auto children = w->children();
         for (auto c : children) {

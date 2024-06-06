@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>679</width>
-    <height>395</height>
+    <height>367</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>5</number>
+       <number>7</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -44,9 +44,9 @@
         </property>
         <property name="color" stdset="0">
          <color>
-          <red>122</red>
-          <green>129</green>
-          <blue>255</blue>
+          <red>148</red>
+          <green>33</green>
+          <blue>146</blue>
          </color>
         </property>
         <property name="animationEnabled" stdset="0">
@@ -64,7 +64,7 @@
         </property>
         <property name="styleSheet">
          <string notr="true">SvgIcon:normal {
- 	color:  #409EFF;
+ 	color:  purple;
 	qproperty-rotation: 0; 
      background-color: darkgrey;
 	border-radius: 0px;
@@ -72,7 +72,7 @@
 	qproperty-margin: rect(12 12 12 12);
 }
 SvgIcon:hover {
- 	color:  #337ECC;
+ 	color:  red;
 	qproperty-rotation: 360; 
      background-color: lightgray;
 	border-radius: 10px;
@@ -110,9 +110,9 @@ SvgIcon:show {
            </property>
            <property name="color" stdset="0">
             <color>
-             <red>0</red>
-             <green>150</green>
-             <blue>255</blue>
+             <red>148</red>
+             <green>33</green>
+             <blue>146</blue>
             </color>
            </property>
            <property name="animationEnabled" stdset="0">
@@ -130,9 +130,9 @@ SvgIcon:show {
            </property>
            <property name="color" stdset="0">
             <color>
-             <red>0</red>
-             <green>150</green>
-             <blue>255</blue>
+             <red>148</red>
+             <green>33</green>
+             <blue>146</blue>
             </color>
            </property>
            <property name="animationEnabled" stdset="0">
@@ -170,9 +170,9 @@ SvgIcon:show {
            </property>
            <property name="color" stdset="0">
             <color>
-             <red>0</red>
-             <green>150</green>
-             <blue>255</blue>
+             <red>148</red>
+             <green>33</green>
+             <blue>146</blue>
             </color>
            </property>
            <property name="animationEnabled" stdset="0">
@@ -187,13 +187,13 @@ SvgIcon:show {
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>50</width>
-          <height>50</height>
+          <width>30</width>
+          <height>30</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">:normal {
- 	color:  #F56C6C;
+ 	color:  purple;
 	qproperty-rotation: 0; 
      background-color: darkgrey;
 	border-radius: 0px;
@@ -201,7 +201,7 @@ SvgIcon:show {
 	qproperty-margin: rect(12 12 12 12);
 }
 :hover {
- 	color:  #C45656;
+ 	color:  red;
 	qproperty-rotation: 360; 
      background-color: lightgray;
 	border-radius: 10px;
@@ -218,9 +218,9 @@ SvgIcon:show {
         </property>
         <property name="color" stdset="0">
          <color>
-          <red>122</red>
-          <green>129</green>
-          <blue>255</blue>
+          <red>148</red>
+          <green>33</green>
+          <blue>146</blue>
          </color>
         </property>
         <property name="animationEnabled" stdset="0">
@@ -254,13 +254,13 @@ background-color: red;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">:normal {
- 	color:  #67C23A;
+ 	color:  purple;
 	qproperty-rotation: 0;
 	border-radius: 0px;
 	padding: 20px;
 }
 :hover {
- 	color:  #529B2E;
+ 	color:  red;
 	qproperty-rotation: 360; 
 	border-radius: 10px;
 }
@@ -276,9 +276,9 @@ background-color: red;</string>
          </property>
          <property name="color" stdset="0">
           <color>
-           <red>122</red>
-           <green>129</green>
-           <blue>255</blue>
+           <red>148</red>
+           <green>33</green>
+           <blue>146</blue>
           </color>
          </property>
          <property name="animationEnabled" stdset="0">
@@ -3953,7 +3953,6 @@ background-color: &quot;darkgrey&quot;;</string>
             <widget class="QWidget" name="widget_19" native="true">
              <property name="styleSheet">
               <string notr="true">.QWidget {
-	
 	background-color: rgba(255, 255, 255, 255);
 }</string>
              </property>
@@ -3962,6 +3961,9 @@ background-color: &quot;darkgrey&quot;;</string>
                <widget class="QRadioButton" name="pushButton_88">
                 <property name="autoFillBackground">
                  <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
                 </property>
                 <property name="text">
                  <string>Default</string>
@@ -4267,6 +4269,397 @@ background-color: &quot;darkgrey&quot;;</string>
        <attribute name="title">
         <string>Check Button</string>
        </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QGroupBox" name="groupBox_12">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>LIGHT</string>
+          </property>
+          <property name="buttonType" stdset="0">
+           <number>1</number>
+          </property>
+          <property name="iconName" stdset="0">
+           <string>yin-yang</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_20" native="true">
+             <property name="styleSheet">
+              <string notr="true">.QWidget {
+	background-color: rgba(255, 255, 255, 255);
+}</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_11">
+              <item row="0" column="0">
+               <widget class="QCheckBox" name="pushButton_99">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>Default</string>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>0</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="pushButton_104">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Sucess</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>2</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QCheckBox" name="pushButton_103">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Warning</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>3</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QCheckBox" name="pushButton_102">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Danger</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>4</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QCheckBox" name="pushButton_101">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Info</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>5</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="pushButton_100">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Primary</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>1</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_13">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>DARK</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_12">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_21" native="true">
+             <property name="styleSheet">
+              <string notr="true">.QWidget {
+	
+	background-color: rgba(0, 0, 0, 255);
+}</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_12">
+              <item row="3" column="0">
+               <widget class="QCheckBox" name="pushButton_108">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Warning</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>3</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QCheckBox" name="pushButton_110">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Info</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>5</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QCheckBox" name="pushButton_109">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Danger</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>4</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="pushButton_107">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Sucess</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>2</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="pushButton_106">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Primary</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>1</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QCheckBox" name="pushButton_105">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Default</string>
+                </property>
+                <property name="icon">
+                 <iconset theme="yin-yang"/>
+                </property>
+                <property name="tristate">
+                 <bool>true</bool>
+                </property>
+                <property name="spacing" stdset="0">
+                 <number>8</number>
+                </property>
+                <property name="styleMode" stdset="0">
+                 <number>0</number>
+                </property>
+                <property name="darkMode" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
       </widget>
       <widget class="QWidget" name="tab_8">
        <attribute name="title">
@@ -4287,7 +4680,6 @@ background-color: &quot;darkgrey&quot;;</string>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <customwidgets>
   <customwidget>

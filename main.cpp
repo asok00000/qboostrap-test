@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    auto elementStyle = new ElementStyle(a.style());
+    auto elementStyle = new ElementStyle();
     a.setStyle(elementStyle);
     MainWindow w;
     w.show();
